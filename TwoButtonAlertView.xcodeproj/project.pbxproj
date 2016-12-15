@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FD8BAA11E023DCA00A49F87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD8BAA01E023DCA00A49F87 /* AppDelegate.swift */; };
+		1FD8BAA31E023DCA00A49F87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD8BAA21E023DCA00A49F87 /* ViewController.swift */; };
+		1FD8BAA61E023DCA00A49F87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD8BAA41E023DCA00A49F87 /* Main.storyboard */; };
+		1FD8BAA81E023DCA00A49F87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD8BAA71E023DCA00A49F87 /* Assets.xcassets */; };
+		1FD8BAAB1E023DCA00A49F87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD8BAA91E023DCA00A49F87 /* LaunchScreen.storyboard */; };
+		1FD8BAB61E023DCA00A49F87 /* TwoButtonAlertViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD8BAB51E023DCA00A49F87 /* TwoButtonAlertViewTests.swift */; };
+		1FD8BAC11E023DCA00A49F87 /* TwoButtonAlertViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD8BAC01E023DCA00A49F87 /* TwoButtonAlertViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FD8BAB21E023DCA00A49F87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FD8BA951E023DC900A49F87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FD8BA9C1E023DC900A49F87;
+			remoteInfo = TwoButtonAlertView;
+		};
+		1FD8BABD1E023DCA00A49F87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FD8BA951E023DC900A49F87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FD8BA9C1E023DC900A49F87;
+			remoteInfo = TwoButtonAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FD8BA9D1E023DC900A49F87 /* TwoButtonAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoButtonAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD8BAA01E023DCA00A49F87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FD8BAA21E023DCA00A49F87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FD8BAA51E023DCA00A49F87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FD8BAA71E023DCA00A49F87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FD8BAAA1E023DCA00A49F87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FD8BAAC1E023DCA00A49F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD8BAB11E023DCA00A49F87 /* TwoButtonAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoButtonAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD8BAB51E023DCA00A49F87 /* TwoButtonAlertViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoButtonAlertViewTests.swift; sourceTree = "<group>"; };
+		1FD8BAB71E023DCA00A49F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD8BABC1E023DCA00A49F87 /* TwoButtonAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoButtonAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD8BAC01E023DCA00A49F87 /* TwoButtonAlertViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoButtonAlertViewUITests.swift; sourceTree = "<group>"; };
+		1FD8BAC21E023DCA00A49F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FD8BA9A1E023DC900A49F87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD8BAAE1E023DCA00A49F87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD8BAB91E023DCA00A49F87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FD8BA941E023DC900A49F87 = {
+			isa = PBXGroup;
+			children = (
+				1FD8BA9F1E023DC900A49F87 /* TwoButtonAlertView */,
+				1FD8BAB41E023DCA00A49F87 /* TwoButtonAlertViewTests */,
+				1FD8BABF1E023DCA00A49F87 /* TwoButtonAlertViewUITests */,
+				1FD8BA9E1E023DC900A49F87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FD8BA9E1E023DC900A49F87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FD8BA9D1E023DC900A49F87 /* TwoButtonAlertView.app */,
+				1FD8BAB11E023DCA00A49F87 /* TwoButtonAlertViewTests.xctest */,
+				1FD8BABC1E023DCA00A49F87 /* TwoButtonAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FD8BA9F1E023DC900A49F87 /* TwoButtonAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				1FD8BAA01E023DCA00A49F87 /* AppDelegate.swift */,
+				1FD8BAA21E023DCA00A49F87 /* ViewController.swift */,
+				1FD8BAA41E023DCA00A49F87 /* Main.storyboard */,
+				1FD8BAA71E023DCA00A49F87 /* Assets.xcassets */,
+				1FD8BAA91E023DCA00A49F87 /* LaunchScreen.storyboard */,
+				1FD8BAAC1E023DCA00A49F87 /* Info.plist */,
+			);
+			path = TwoButtonAlertView;
+			sourceTree = "<group>";
+		};
+		1FD8BAB41E023DCA00A49F87 /* TwoButtonAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FD8BAB51E023DCA00A49F87 /* TwoButtonAlertViewTests.swift */,
+				1FD8BAB71E023DCA00A49F87 /* Info.plist */,
+			);
+			path = TwoButtonAlertViewTests;
+			sourceTree = "<group>";
+		};
+		1FD8BABF1E023DCA00A49F87 /* TwoButtonAlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FD8BAC01E023DCA00A49F87 /* TwoButtonAlertViewUITests.swift */,
+				1FD8BAC21E023DCA00A49F87 /* Info.plist */,
+			);
+			path = TwoButtonAlertViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FD8BA9C1E023DC900A49F87 /* TwoButtonAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD8BAC51E023DCA00A49F87 /* Build configuration list for PBXNativeTarget "TwoButtonAlertView" */;
+			buildPhases = (
+				1FD8BA991E023DC900A49F87 /* Sources */,
+				1FD8BA9A1E023DC900A49F87 /* Frameworks */,
+				1FD8BA9B1E023DC900A49F87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoButtonAlertView;
+			productName = TwoButtonAlertView;
+			productReference = 1FD8BA9D1E023DC900A49F87 /* TwoButtonAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FD8BAB01E023DCA00A49F87 /* TwoButtonAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD8BAC81E023DCA00A49F87 /* Build configuration list for PBXNativeTarget "TwoButtonAlertViewTests" */;
+			buildPhases = (
+				1FD8BAAD1E023DCA00A49F87 /* Sources */,
+				1FD8BAAE1E023DCA00A49F87 /* Frameworks */,
+				1FD8BAAF1E023DCA00A49F87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FD8BAB31E023DCA00A49F87 /* PBXTargetDependency */,
+			);
+			name = TwoButtonAlertViewTests;
+			productName = TwoButtonAlertViewTests;
+			productReference = 1FD8BAB11E023DCA00A49F87 /* TwoButtonAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FD8BABB1E023DCA00A49F87 /* TwoButtonAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD8BACB1E023DCA00A49F87 /* Build configuration list for PBXNativeTarget "TwoButtonAlertViewUITests" */;
+			buildPhases = (
+				1FD8BAB81E023DCA00A49F87 /* Sources */,
+				1FD8BAB91E023DCA00A49F87 /* Frameworks */,
+				1FD8BABA1E023DCA00A49F87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FD8BABE1E023DCA00A49F87 /* PBXTargetDependency */,
+			);
+			name = TwoButtonAlertViewUITests;
+			productName = TwoButtonAlertViewUITests;
+			productReference = 1FD8BABC1E023DCA00A49F87 /* TwoButtonAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FD8BA951E023DC900A49F87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = omsubusmo;
+				TargetAttributes = {
+					1FD8BA9C1E023DC900A49F87 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PF9QCG3T26;
+						ProvisioningStyle = Automatic;
+					};
+					1FD8BAB01E023DCA00A49F87 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PF9QCG3T26;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FD8BA9C1E023DC900A49F87;
+					};
+					1FD8BABB1E023DCA00A49F87 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PF9QCG3T26;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FD8BA9C1E023DC900A49F87;
+					};
+				};
+			};
+			buildConfigurationList = 1FD8BA981E023DC900A49F87 /* Build configuration list for PBXProject "TwoButtonAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FD8BA941E023DC900A49F87;
+			productRefGroup = 1FD8BA9E1E023DC900A49F87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FD8BA9C1E023DC900A49F87 /* TwoButtonAlertView */,
+				1FD8BAB01E023DCA00A49F87 /* TwoButtonAlertViewTests */,
+				1FD8BABB1E023DCA00A49F87 /* TwoButtonAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FD8BA9B1E023DC900A49F87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD8BAAB1E023DCA00A49F87 /* LaunchScreen.storyboard in Resources */,
+				1FD8BAA81E023DCA00A49F87 /* Assets.xcassets in Resources */,
+				1FD8BAA61E023DCA00A49F87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD8BAAF1E023DCA00A49F87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD8BABA1E023DCA00A49F87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FD8BA991E023DC900A49F87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD8BAA31E023DCA00A49F87 /* ViewController.swift in Sources */,
+				1FD8BAA11E023DCA00A49F87 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD8BAAD1E023DCA00A49F87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD8BAB61E023DCA00A49F87 /* TwoButtonAlertViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD8BAB81E023DCA00A49F87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD8BAC11E023DCA00A49F87 /* TwoButtonAlertViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FD8BAB31E023DCA00A49F87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FD8BA9C1E023DC900A49F87 /* TwoButtonAlertView */;
+			targetProxy = 1FD8BAB21E023DCA00A49F87 /* PBXContainerItemProxy */;
+		};
+		1FD8BABE1E023DCA00A49F87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FD8BA9C1E023DC900A49F87 /* TwoButtonAlertView */;
+			targetProxy = 1FD8BABD1E023DCA00A49F87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FD8BAA41E023DCA00A49F87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FD8BAA51E023DCA00A49F87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FD8BAA91E023DCA00A49F87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FD8BAAA1E023DCA00A49F87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FD8BAC31E023DCA00A49F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FD8BAC41E023DCA00A49F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FD8BAC61E023DCA00A49F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PF9QCG3T26;
+				INFOPLIST_FILE = TwoButtonAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = omsub.TwoButtonAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FD8BAC71E023DCA00A49F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PF9QCG3T26;
+				INFOPLIST_FILE = TwoButtonAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = omsub.TwoButtonAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1FD8BAC91E023DCA00A49F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PF9QCG3T26;
+				INFOPLIST_FILE = TwoButtonAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = omsub.TwoButtonAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoButtonAlertView.app/TwoButtonAlertView";
+			};
+			name = Debug;
+		};
+		1FD8BACA1E023DCA00A49F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PF9QCG3T26;
+				INFOPLIST_FILE = TwoButtonAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = omsub.TwoButtonAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoButtonAlertView.app/TwoButtonAlertView";
+			};
+			name = Release;
+		};
+		1FD8BACC1E023DCA00A49F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PF9QCG3T26;
+				INFOPLIST_FILE = TwoButtonAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = omsub.TwoButtonAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TwoButtonAlertView;
+			};
+			name = Debug;
+		};
+		1FD8BACD1E023DCA00A49F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PF9QCG3T26;
+				INFOPLIST_FILE = TwoButtonAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = omsub.TwoButtonAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TwoButtonAlertView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FD8BA981E023DC900A49F87 /* Build configuration list for PBXProject "TwoButtonAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD8BAC31E023DCA00A49F87 /* Debug */,
+				1FD8BAC41E023DCA00A49F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FD8BAC51E023DCA00A49F87 /* Build configuration list for PBXNativeTarget "TwoButtonAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD8BAC61E023DCA00A49F87 /* Debug */,
+				1FD8BAC71E023DCA00A49F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FD8BAC81E023DCA00A49F87 /* Build configuration list for PBXNativeTarget "TwoButtonAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD8BAC91E023DCA00A49F87 /* Debug */,
+				1FD8BACA1E023DCA00A49F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FD8BACB1E023DCA00A49F87 /* Build configuration list for PBXNativeTarget "TwoButtonAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD8BACC1E023DCA00A49F87 /* Debug */,
+				1FD8BACD1E023DCA00A49F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FD8BA951E023DC900A49F87 /* Project object */;
+}
